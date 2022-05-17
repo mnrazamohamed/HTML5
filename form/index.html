@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>HTML Forms</h1>
+
+    <form action="">
+      <label for="uname"> <b> Username: </b> </label> <br />
+      <input type="text" name="username" id="uname" /> <br />
+      <br />
+
+      <label for="pswd"> <b> Password: </b> </label> <br />
+      <input type="password" name="password" id="pswd" /> <br />
+      <br />
+
+      <label for=""> <b> Gender:</b> </label><br />
+      <input type="radio" id="male" name="gender" />
+      <label for="male">Male</label><br />
+      <input type="radio" id="female" name="gender" />
+      <label for="female">Female</label><br />
+      <br />
+
+      <label for=""> <b> Subjects: </b></label><br />
+      <input type="checkbox" id="html" name="language1" />
+      <label for="html">HTML</label><br />
+      <input type="checkbox" id="css" name="language2" />
+      <label for="css">CSS</label><br />
+      <input type="checkbox" id="javascript" name="language3" />
+      <label for="javascript">JavaScript</label> <br />
+      <br />
+
+      <label for="colors"> <b> Choose a color: </b></label>
+      <select id="colors" name="color">
+        <option value="blue">Blue</option>
+        <option value="black">Black</option>
+        <option value="white">White</option>
+      </select>
+      <br /><br />
+
+      <textarea name="message" rows="10" cols="30">This is textarea </textarea>
+      <br /><br />
+
+      <input type="button" name="password" id="reset" value="Reset" />
+      <input type="button" name="username" id="submit" value="Submit" />
+      <br />
+      <br />
+    </form>
+  </body>
+</html>
